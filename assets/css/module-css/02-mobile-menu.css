@@ -12,7 +12,8 @@
 	cursor: pointer;
 	border-radius: 50%;
 	float: right;
-	margin: 13px 0;
+	/* margin: 13px 0; */
+	margin: 13px 8px;
 	display: none;
 	transition: .5s;
 }

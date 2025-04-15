@@ -26,6 +26,7 @@ Header Lower
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	padding-right: 1rem;
 }
 .navbar-right-info .mobile-nav-toggler {
 	position: relative;

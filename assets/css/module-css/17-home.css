@@ -71,7 +71,8 @@ html {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  padding: 2rem 10rem;
+  padding: 10rem 10rem;
+  
 }
 
 .home .images img {
@@ -86,7 +87,7 @@ html {
 
 .home .content {
   align-self: center;
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
 }
 
 .home .content h1 {
@@ -192,10 +193,14 @@ html {
     font-size: 50%;
   }
 
-  .home {
-    flex-flow: column;
-    padding: 1.5rem;
-  }
+ }
+
+  @media (max-width: 991px) {
+    .home {
+        flex-flow: column;
+        padding: 1.5rem;
+        margin: 11rem 0;
+    }
 
   .home .content {
     text-align: center;
